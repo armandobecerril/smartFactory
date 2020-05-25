@@ -40,7 +40,6 @@ Check
     
     Output should be similar to:
     ```
-    wait-for-it.sh: waiting 30 seconds for zookeeper:32181
 wait-for-it.sh: zookeeper:32181 is available after 6 seconds
 wait-for-it.sh: waiting 30 seconds for kafka:9092
 wait-for-it.sh: kafka:9092 is available after 3 seconds
