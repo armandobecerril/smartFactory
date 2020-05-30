@@ -99,3 +99,8 @@ Smart Factory Druid
      ``` 
      druid_extensions_loadList=["druid-histogram", "druid-datasketches", "druid-lookups-cached-global", "postgresql-   metadata-storage", "druid-hdfs-storage", "druid-kafka-extraction-namespace", "druid-kafka-indexing-service"]
      ```
+Build
+From the root of the repo, run docker build -t apache/druid:tag -f distribution/docker/Dockerfile .
+
+Run
+Edit environment to suite. Run docker-compose -f distribution/docker/docker-compose.yml up
