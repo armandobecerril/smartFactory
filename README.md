@@ -92,3 +92,10 @@ Stop
     ```
     docker-compose down
     ```
+
+Smart Factory Druid
+---
+1. Update environment file from distribution/docker path
+     ``` 
+     druid_extensions_loadList=["druid-histogram", "druid-datasketches", "druid-lookups-cached-global", "postgresql-   metadata-storage", "druid-hdfs-storage", "druid-kafka-extraction-namespace", "druid-kafka-indexing-service"]
+     ```
