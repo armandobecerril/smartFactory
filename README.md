@@ -21,7 +21,7 @@ Build
     ```
 1. Build Docker image 
     ```
-    docker build -t kafka-spark-flink-example .
+    docker build -t smart-factory-kafka-spark-flink .
     ```
 
 Run
@@ -35,7 +35,7 @@ Check
 ---
 1. Check producer logs
     ```
-    docker logs kafka-spark-flink-example_kafka-producer_1 -f
+    docker logs smart-factory-kafka-spark-flink_kafka-producer_1 -f
     ```
     
     Output should be similar to:
@@ -44,7 +44,7 @@ Check
     ```
 1. Check consumer with Spark logs
     ```
-    docker logs kafka-spark-flink-example_kafka-consumer-spark_1 -f
+    docker logs smart-factory-kafka-spark-flink_kafka-consumer-spark_1 -f
     ```
     
     Output should be similar to:
@@ -62,7 +62,7 @@ Check
     ```
 1. Check consumer with Flink logs
     ```
-    docker logs kafka-spark-flink-example_kafka-consumer-flink_1 -f
+    docker logs smart-factory-kafka-spark-flink_kafka-consumer-flink_1 -f
     ```
     
     Output should be similar to:
