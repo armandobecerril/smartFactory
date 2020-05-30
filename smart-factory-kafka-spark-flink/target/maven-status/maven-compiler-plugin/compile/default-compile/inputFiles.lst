@@ -1,0 +1,6 @@
+/Users/abecerri/smart-factory-kafka-spark-flink/src/main/java/com/smartfactory/kafka/cli/Main.java
+/Users/abecerri/smart-factory-kafka-spark-flink/src/main/java/com/smartfactory/kafka/consumer/KafkaConsumerExample.java
+/Users/abecerri/smart-factory-kafka-spark-flink/src/main/java/com/smartfactory/kafka/consumer/KafkaFlinkConsumerExample.java
+/Users/abecerri/smart-factory-kafka-spark-flink/src/main/java/com/smartfactory/kafka/commons/Commons.java
+/Users/abecerri/smart-factory-kafka-spark-flink/src/main/java/com/smartfactory/kafka/producer/KafkaProducerExample.java
+/Users/abecerri/smart-factory-kafka-spark-flink/src/main/java/com/smartfactory/kafka/consumer/KafkaSparkConsumerExample.java
