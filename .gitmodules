@@ -1,3 +1,6 @@
 [submodule "smart-factory-druid"]
 	path = smart-factory-druid
 	url = https://github.com/apache/druid.git
+[submodule "smart-factory-superset"]
+	path = smart-factory-superset
+	url = https://gitlab.com/hmoralesp/poc-ss.git
