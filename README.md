@@ -105,5 +105,7 @@ Smart Factory Druid
      docker build -t apache/druid:tag -f distribution/docker/Dockerfile .
      ``` 
 3. Run
-    Edit environment to suite. Run 
+    Edit environment to suite. Run
+    ``` 
     docker-compose -f distribution/docker/docker-compose.yml up
+    ``` 
