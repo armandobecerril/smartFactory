@@ -1,0 +1,3 @@
+[submodule "smart-factory-druid"]
+	path = smart-factory-druid
+	url = https://github.com/apache/druid.git
