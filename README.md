@@ -1,4 +1,4 @@
-Smart Factory & Operations Kafka streaming with Spark and Flink Demo
+Smart Factory & Operations 
 ===
 Example project on how to use [Apache Kafka](https://kafka.apache.org) and streaming consumers, namely:
 - Producer sending random number words to Kafka
