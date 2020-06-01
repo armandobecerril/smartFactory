@@ -97,12 +97,12 @@ Smart Factory Druid
 ---
 1. Update environment file from distribution/docker path
      ``` 
-     druid_extensions_loadList=["druid-histogram", "druid-datasketches", "druid-lookups-cached-global", "postgresql-   metadata-storage", "druid-hdfs-storage", "druid-kafka-extraction-namespace", "druid-kafka-indexing-service"]
+     druid_extensions_loadList=["druid-histogram", "druid-datasketches", "druid-lookups-cached-global", "postgresql-metadata-storage", "druid-hdfs-storage", "druid-kafka-extraction-namespace", "druid-kafka-indexing-service","druid-azure-extensions","druid-kinesis-indexing-service"]
      ```
 2. Build
      From the root of the repo, run 
      ``` 
-     docker build -t apache/druid:tag -f distribution/docker/Dockerfile .
+     docker build -t smart-factory-druid:0.17.0 -f distribution/docker/Dockerfile .
      ``` 
 3. Run
     Edit environment to suite. Run
