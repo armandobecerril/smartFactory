@@ -102,7 +102,7 @@ Smart Factory Druid
 2. Build
      From the root of the repo, run 
      ``` 
-     docker build -t smart-factory-druid:0.18.1 -f distribution/docker/Dockerfile .
+     docker build -t apache/druid:0.18.1 -f distribution/docker/Dockerfile .
      ``` 
 3. Run
     Edit environment to suite. Run
